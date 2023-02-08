@@ -76,14 +76,66 @@
 
 /* ENTSCHEIDUNGSSTRUKTUREN | CONTROL FLOW*/
 
+// let cond;
+// cond = true;
+// cond = (6 > 4);
+// cond = (6 < 4);
+// cond = (4 == 4); // Test auf Wert
+// cond = (4 === "4"); // Test auf Wert UND Typ 
+
+// if (cond) {
+//      console.log("Aussage wahr"); 
+// } else {
+//      console.log("Aussage falsch"); 
+// }
 
 
 
 
- // https://github.com/01-PP/03_Entscheidungsstrukturen
+ 
+
+
+
+
+
+// https://github.com/01-PP-CC/03_Entscheidungsstrukturen
 
 /* FUNKTIONEN */
 
+// 1. Kapselung
+// test(); // call
+// function test() { // Fkt.-Rumpf | body
+//      console.log("Testausgabe");
+// }
+
+// 2. return
+//   console.log(test2());
+//   function test2() { // do something ...
+//      return "Testausgabe 2"; // Lieferung an die Stelle des calls
+//      console.log("Noch eine Ausgabe"); // nach return Abbruch!
+//   }
+
+// 3. Parameter 
+//   console.log(test3("Robert")); // Argument(e)
+//   function test3(firstName) // Parameter
+//   { // do something ...
+//      return "Hallo, " + firstName; 
+// }
+
+
+// 4. Fkt-Call aus Funktionen
+// console.log(test4("Robert")); // Argument(e) 
+
+// function test4(firstName) // Parameter
+// { 
+//     return grussformel() + firstName; 
+//     // return firstName + grussformel() ; 
+// }
+
+//  function grussformel() {
+//     // return "Hallo, ";
+//      return "Hola, ";
+// }
 
 // rechner();
 
